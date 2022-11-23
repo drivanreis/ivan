@@ -9,28 +9,30 @@ header{
     background-image: linear-gradient(to bottom, blue, white);
 }
 
+@media only screen and (min-width: 480px) {
+    div{
+        display: inline-block;
+    }
+}
+
 div.texto{
-    display: inline-block;
     width: 49%;
     text-align: center;
 }
 
 div.img{
-    /*position: relative;*/
-    display: inline-block;
     width: 25%;
 }
 
 img{
-    width: 100%;
-    /*height: 100%;*/
+    max-width: 100%;
 }
 section{
     margin-top: 25px;
     text-align: center;
 }
 
-h3{
+h1,h2,h3,h4,p{
     margin: 15px;
 }
 footer{

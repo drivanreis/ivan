@@ -16,12 +16,12 @@ header{
 }
 
 div.texto{
-    width: 49%;
+    min-width: 49%;
     text-align: center;
 }
 
 div.img{
-    width: 25%;
+    width: 24%;
 }
 
 img{
@@ -34,6 +34,7 @@ section{
 
 h1,h2,h3,h4,p{
     margin: 15px;
+    width: auto;
 }
 footer{
     text-align: center;
